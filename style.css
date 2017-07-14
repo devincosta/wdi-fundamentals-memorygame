@@ -4,10 +4,16 @@ font-family: "Droid Serif", serif;
 
 h1 {
 font-family: "Raleway", sans-serif;
-color: #0D2C40;
+color: white;
 font-weight: 400;
 font-size: 45px;
 margin: 0;
+background-color: orange;
+}
+
+.firstlinks {
+  background-color: blue;
+  color: white;
 }
 
 body {
@@ -16,11 +22,16 @@ margin: 0;
 }
 
 a {
-  color: #F15B31;
-  font-family: Raleway;
+  color: white;
+  font-family: "Raleway";
   font-weight: 600;
   font-size: 18px;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-color: white;
 }
 
 h2 {
@@ -68,4 +79,39 @@ img{
   margin-top: 40px;
   margin-left: 8px;
   margin-right: 8px;
+}
+
+footer{
+  text-transform: uppercase;
+  padding-right: 20px;
+  padding-right: 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+  }
+
+  .copyright{
+    font-family: "Raleway", sans-serif;
+    float: left;
+  }
+
+  .message{
+    font-family: "Raleway", sans-serif;
+    float: right;
+  }
+
+  .clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name{
+  color: #F15B31;
+  font-weight: 700;
 }
