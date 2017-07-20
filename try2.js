@@ -1,8 +1,14 @@
-'use strict'
+//'use strict'
 var cards = ["queen","queen","king","king"];
 var cardsInPlay = [];
-var cardOne = cards[1];
-cardsInPlay.push(cards[1]);
-console.log('user flipped queen');
-var cardTwo = cards[3];
-cardsInPlay.push(cardTwo)
+
+var flipCard = function (cardId){
+if (cardsInPlay.length === 2){
+   cardsInPlay[0] === cardsInPlay[1]
+   console.log("user flipped" + cards[cardId])
+  alert("You found a match!");}
+  else {
+    alert("Sorry, try again");
+  }
+ flipCard(0)
+ cardsInPlay.push(cards[cardId])
